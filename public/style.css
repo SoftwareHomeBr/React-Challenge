@@ -1,0 +1,90 @@
+.pai > div {
+    width: 400px;
+  }
+   
+  h1 {
+    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #333;
+  }
+  h2 {
+    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+   
+  li:last-child {
+    border: none;
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 300px;
+   
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+  }
+    a span{
+        margin-left:40px;
+    }
+    li span{
+        margin-left:40px;
+    }
+    div p{
+      font-size: 0.8em;
+      display: inline-block;
+    }
+
+    li a:hover {
+    font-size: 23px;
+    background: #ffff99;
+  }
+  .flex-container-f {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #eee;
+  }
+
+  .flex-container > div {
+      background-color: #f1f1f1;
+      width: 50%;
+      margin: 10px 100px;
+      text-align: center;
+      line-height: 15px;
+      font-size: 1em;
+  }
+  .flex-container-det {
+    margin-left: 4px;
+    background-color: #fff;
+  }
+  .flex-container-det > div {
+      background-color: #f1f1f1;
+      width: 600px;
+      margin: 10px 30px 10px 50px;
+      text-align: center;
+      line-height: 15px;
+      font-size: 1em;
+  }
+  .flex-container > li:hover {
+        background-color: #ffffbb;
+  }
+  .flex-container-det > h1 {
+      width: 100%;
+  }
