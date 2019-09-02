@@ -13,7 +13,7 @@ Desafio da Lendico
   &#9745;  Testes unitários<br/>
   &#9745;  Não utilize framework de CSS como Bootstrap, Materialize etc...<br/>
   &#9745;  Documentação sobre como executar o projeto.<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Responsividade<br/>
+  &#9745;  Responsividade<br/>
 
 # Diferencial
 
